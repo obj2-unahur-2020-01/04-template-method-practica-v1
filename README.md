@@ -34,3 +34,10 @@ Se sabe que para el café el habla tiene que estar a 95 grados y tiempo de infus
 _Olga_, una famosa fábrica de hornos automáticos de pan quiere actualizar su sistema para mejorar su producto y nos pidió que 
 le hagamos una propuesta
 *¿Qué mejora le harías?*
+
+## Ejercicio 4 - EnviosYa
+La aplicación `EnviosYa` ofrece envíos calculando costos por tipo de envio y tipo de paquete para ofrecerle la mejor opción a sus usuarios. 
+En la última reunión de socios se informó que se consiguieron inversores por lo que se van a agregar muchos tipos de envío y de paquetes. 
+A partir de esa noticia, los analistas vieron que hoy en día su sistema no está en condiciones de agregarlos de manera prolija/elegante.
+
+*¿Cómo se puede mejorar?
