@@ -41,3 +41,23 @@ En la última reunión de socios se informó que se consiguieron inversores por 
 A partir de esa noticia, los analistas vieron que hoy en día su sistema no está en condiciones de agregarlos de manera prolija/elegante.
 
 *¿Cómo se puede mejorar?
+
+## Ejercicio 5 - Paquetes de Viajes
+
+Una agencia de viajes esta desarrollando su propio sistema de gestión y está teniendo problemas en el diseño de su solución. Para resolverlo nos ha contratado y quiere que revisemos el diseño. Para eso nos pasaron el diseño actual que cuenta con las siguientes clases:
+
+![](/ejercicio1.png)
+
+El primer problema que se visualiza es que `AgenciaDeViajes` no está trabajando polimorficamente con los distintos paquetes de viajes. Esto nos trae varios problemas a la hora de querer agregar nuevos paquetes.
+
+```java
+    public void catalogoDePaquetes() {
+        paqueteCuyo.imprimirItinerario();
+        paqueteNOA.itinerario();
+        paquetePatagonia.getItinerario();
+    }
+```
+
+El segundo problema está relacionado con el primero, si bien todos los paquetes son de 3 días con traslados de ida y vuelta, en el diseño no hay nada que nos asegure que todos los paquetes van a tener un itinerario con esa estructura.
+
+Se solicita realizar las modificaciones necesarias para resolver los problemas de diseño encontrados.
