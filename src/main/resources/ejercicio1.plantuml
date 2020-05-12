@@ -1,0 +1,39 @@
+@startuml
+
+    class ar.edu.unahur.obj2.ejercicio1.AgenciaDeViajes {
+        + AgenciaDeViajes()
+        + catalogoDePaquetes()
+    }
+
+    class ar.edu.unahur.obj2.ejercicio1.PaqueteCuyo {
+        + getNombre()
+        + imprimirItinerario()
+        - print()
+        # getTransporteIda()
+        # getDia1()
+        # getDia2()
+        # getDia3()
+        # getTransporteVuelta()
+    }
+
+    class ar.edu.unahur.obj2.ejercicio1.PaqueteNOA {
+        + itinerario()
+        - nombre()
+        # transporteIda()
+        # dia1()
+        # dia2()
+        # dia3()
+        # transporteVuelta()
+        - print()
+    }
+
+    class ar.edu.unahur.obj2.ejercicio1.PaquetePatagonia {
+        + getItinerario()
+        - print()
+    }
+
+  ar.edu.unahur.obj2.ejercicio1.AgenciaDeViajes o-- ar.edu.unahur.obj2.ejercicio1.PaqueteCuyo : paqueteCuyo
+  ar.edu.unahur.obj2.ejercicio1.AgenciaDeViajes o-- ar.edu.unahur.obj2.ejercicio1.PaqueteNOA : paqueteNOA
+  ar.edu.unahur.obj2.ejercicio1.AgenciaDeViajes o-- ar.edu.unahur.obj2.ejercicio1.PaquetePatagonia : paquetePatagonia
+
+@enduml
