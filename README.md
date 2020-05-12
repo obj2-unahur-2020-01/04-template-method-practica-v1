@@ -1,4 +1,4 @@
-## 1. Infusiones
+## Ejercicio 1 - Infusiones
 
 Todo el mundo disfruta por la mañana de tomar su bebida con cafeína, las opciones mas populares son Café, Mate y Té.
 Una popular cadena de cafeterias está creando un Robot Barista, el  `Roborista`, para que atienda en sus distintos locales.
@@ -29,3 +29,8 @@ Se sabe que para el café el habla tiene que estar a 95 grados y tiempo de infus
 * `Té Negro`, Para confeccionar té negro se recomienda una  temperatura del agua de 95 °C y un tiempo de infusión de 6 minutos.
 
 * `Té Blanco`, En el caso del té blanco, lo mejor sería conseguir una temperatura del agua de 85 °C. El tiempo de infusión recomendado debería ser de 4 minutos.
+
+## Ejercicio 2 - Horno de pan
+_Olga_, una famosa fábrica de hornos automáticos de pan quiere actualizar su sistema para mejorar su producto y nos pidió que 
+le hagamos una propuesta
+*¿Qué mejora le harías?*
