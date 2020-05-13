@@ -143,13 +143,13 @@ el _**TipoDeLavado**_. En caso de no tener centrifugado _**no mostrará nada**_.
 
 ### Tipos de lavado
 
-* `lavadoNormal():` Indica por pantalla _**"Iniciando ciclo de lavado Normal Duracion 30 minutos"**_ y 
+* `LavadoNormal:` Indica por pantalla _**"Iniciando ciclo de lavado Normal Duracion 30 minutos"**_ y 
 tendrá un ciclo de centrifugado `suave`.
 
-* `lavadoRapido():` Indica por paltalla _**"Iniciando ciclo de lavado Rapido Duracion 15 minutos"**_ y 
+* `LavadoRapido:` Indica por paltalla _**"Iniciando ciclo de lavado Rapido Duracion 15 minutos"**_ y 
 será `sin centrifugado`.
 
-* `lavadoExremo():` Indica por paltalla _**"Iniciando ciclo de lavado Rapido Duracion 45 minutos"**_ y 
+* `LavadoExremo:` Indica por paltalla _**"Iniciando ciclo de lavado Rapido Duracion 45 minutos"**_ y 
 será con centrifugado `extremo`. Este lavado a diferencia de los demas a mitad de ciclo va a 
 `comenzarEnjuague()` y `prepararLavado()`. Luego continúa el ciclo normalmente.
 
